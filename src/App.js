@@ -43,7 +43,7 @@ function App() {
 
   async function addMovieHandler(movie) {
     const response = await fetch(
-      "https://cryptic-headland-94862.herokuapp.com/https://https-request-b4834-default-rtdb.firebaseio.com/movies.json",
+      "https://https-request-b4834-default-rtdb.firebaseio.com/movies.json",
       {
         method: "POST",
         body: JSON.stringify(movie),
